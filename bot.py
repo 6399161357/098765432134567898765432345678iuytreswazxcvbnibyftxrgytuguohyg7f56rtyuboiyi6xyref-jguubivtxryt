@@ -29,7 +29,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
     
     keyboard = [
-        [InlineKeyboardButton("👑 Owner", url="https://t.me/Light_speedy")]
+        [InlineKeyboardButton("L ɪ ɢ ʜ ᴛ", url="https://t.me/Light_speedy")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
@@ -86,10 +86,10 @@ async def love(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if (username == USER1 and replied_username == USER2) or (username == USER2 and replied_username == USER1):
         text = (
             f"<a href='https://t.me/{USER1}'>{NAME1}</a> ❤️ <a href='https://t.me/{USER2}'>{NAME2}</a>\n\n"
-            f"<b>Lᴏᴠᴇ Cᴏᴍᴘᴀᴛɪʙɪʟɪᴛʏ: 64% ❤️</b>"
+            f"<b>Lᴏᴠᴇ Cᴏᴍᴘᴀᴛɪʙɪʟɪᴛʏ: 100% ❤️</b>"
         )
     else:
-        text = "⚠️ This command works only between @Light_speedy and @Cherry_blossomm."
+        text = "⚠️ This command works only between L ɪ ɢ ʜ ᴛ and ᥀꯭ᮁ💗׀⃪𝆺꯭𝅥𝐐𝐮𝐞𝐞𝐧⃪💗𝐬𝐚𝐧𝐢𝐲𝐚🌸."
     
     await update.message.reply_text(text, parse_mode="HTML")
 

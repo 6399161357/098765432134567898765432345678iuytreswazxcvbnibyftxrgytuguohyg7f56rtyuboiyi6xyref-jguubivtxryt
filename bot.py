@@ -26,7 +26,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         f"<b>This bot is made for  {NAME2}</b>\n\n"
         f"Powered by @light_speedy\n"
-         f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     )
     
     keyboard = [

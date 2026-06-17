@@ -26,6 +26,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         f"<b>This bot is made for {NAME2}</b>\n\n"
         f"<i>Powered by</i> <a href='https://t.me/Light_speedy'>L ɪ ɢ ʜ ᴛ</a>\n"
+         f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     )
     
     keyboard = [
